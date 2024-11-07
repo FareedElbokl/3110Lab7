@@ -1,4 +1,4 @@
-abstract class Site {
+public class Site {
 
     protected double _units;
     protected double _rate;
@@ -10,6 +10,4 @@ abstract class Site {
         this._rate = rate;
     }
 
-    // Abstract method for subclasses to implement
-    public abstract double getBillableAmount();
 }
