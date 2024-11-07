@@ -1,4 +1,4 @@
-public class Site {
+abstract public class Site {
 
     protected double _units;
     protected double _rate;
@@ -9,5 +9,9 @@ public class Site {
         this._units = units;
         this._rate = rate;
     }
+
+    public abstract double getBaseAmount();
+
+
 
 }
