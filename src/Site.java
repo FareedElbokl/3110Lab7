@@ -11,6 +11,7 @@ abstract public class Site {
     }
 
     public abstract double getBaseAmount();
+    public abstract double getTaxAmount();
 
 
 
