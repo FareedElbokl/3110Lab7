@@ -3,5 +3,12 @@ public class LifelineSite extends Site {
         super(units, rate);
     }
 
+    @Override
+    public double getBaseAmount() {
+        return _units * _rate * 0.5;
+    }
+
+
+
 
 }

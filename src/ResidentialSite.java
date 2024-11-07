@@ -3,5 +3,12 @@ public class ResidentialSite extends Site{
         super(units, rate);
     }
 
+    @Override
+    public double getBaseAmount() {
+        return _units * _rate;
+    }
+
+
+
 
 }
